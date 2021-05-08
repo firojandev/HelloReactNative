@@ -17,6 +17,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
 } from 'react-native';
+
 import AppHeader from './src/components/screens/headers/AppHeader';
 import AddTodo from './src/components/screens/home/addTodo';
 import TodoItem from './src/components/screens/home/TodoItem';
@@ -97,11 +98,13 @@ const styles = StyleSheet.create({
   },
 
   content: {
-    padding: 20,
+    padding: 40,
+    backgroundColor:'pink',
 
   },
   list: {
     padding: 20,
+    backgroundColor:'yellow',
   }
   
 });
